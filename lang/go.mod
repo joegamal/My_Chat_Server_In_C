@@ -1,3 +1,3 @@
-module basic_lang
+module lang
 
 go 1.26.2
