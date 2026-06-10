@@ -10,6 +10,7 @@ class Program
         
         Console.WriteLine("Hello, World!");
         //get the ip of the 
-        Console.WriteLine(IpAddress.GetIpAddress());
+        string MyIpAddress = IpAddress.GetIpAddress();
+        Console.WriteLine(MyIpAddress);
     }
 }
