@@ -17,5 +17,9 @@ class Program
         //get the os 
         string MyPlatform = Platform.GetCurrentPlatform();
         Console.WriteLine($"Current platform is {MyPlatform}");
+        
+        if(MyPlatform == "windows"){ /* call seif work */ }
+
+        if(MyPlatform == "linux"){ /* yusuf work */}
     }
 }
