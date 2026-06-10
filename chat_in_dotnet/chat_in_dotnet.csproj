@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Audio\AudioCompression\" />
+    <Folder Include="Audio\AudioExtraction\" />
+    <Folder Include="Audio\AudioSource\" />
+  </ItemGroup>
+
 </Project>

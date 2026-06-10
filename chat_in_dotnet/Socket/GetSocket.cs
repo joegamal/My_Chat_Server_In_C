@@ -15,7 +15,9 @@ public class GetSocket
             
                 // Sends a message to the host to which you have connected.
                 Byte[] sendBytes = Encoding.UTF8.GetBytes("Is anybody there?");
-
+                
+                //udpClient.Connect(IpToConnect, 11000);
+                
                 udpClient.Send(sendBytes, sendBytes.Length);
             }
             
